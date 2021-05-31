@@ -1,10 +1,11 @@
-import AboutPage from './AboutPage'
 import { render } from '@redwoodjs/testing'
 
-describe('AboutPage', () => {
+import BlogLayout from './BlogLayout'
+
+describe('BlogLayout', () => {
   it('renders successfully', () => {
     expect(() => {
-      render(<AboutPage />)
+      render(<BlogLayout />)
     }).not.toThrow()
   })
 })
